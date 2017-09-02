@@ -6,7 +6,7 @@
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "e2e": "detox test --configuration ios.sim -d"
+    "e2e": "detox test --configuration ios.sim"
   },
   "dependencies": {
     "expo": "^20.0.0",
