@@ -5,26 +5,37 @@
   "author": null,
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
+  "engines": {
+    "node": ">=8",
+    "yarn": ">=1.9.4"
+  },
   "scripts": {
-    "e2e": "detox test --configuration ios.sim"
+    "start": "expo-cli start",
+    "e2e": "detox test --configuration ios.sim",
+    "e2e-verbose": "detox test --loglevel trace --debug-synchronization --configuration ios.sim"
   },
   "dependencies": {
-    "expo": "^25.0.0",
-    "react": "16.2.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz"
+    "expo": "^29.0.0",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz"
   },
   "devDependencies": {
-    "detox": "^5.6.1",
-    "detox-expo-helpers": "^0.1.1",
-    "mocha": "^3.5.0"
+    "detox": "^9.0.4",
+    "detox-expo-helpers": "^0.2.0",
+    "jest-expo": "^29.0.0"
+    
   },
   "detox": {
+    "test-runner": "jest",
     "configurations": {
       "ios.sim": {
-        "binaryPath": "bin/Exponent-1.19.0.app",
+        "binaryPath": "bin/Exponent-2.8.2.app",
         "type": "ios.simulator",
-        "name": "iPhone 7"
+        "name": "iPhone X"
       }
     }
+  },
+  "jest": {
+    "preset": "jest-expo"
   }
 }
