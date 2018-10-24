@@ -1,3 +1,5 @@
+NOTE this example repository has some unpleasant workarounds - see comments in `e2e/firstTest.spec.js`.
+
 # with-detox-tests
 
 Demonstrates integration of the Detox gray box end-to-end testing library with Expo. Uses [detox-expo-helpers](https://github.com/expo/detox-expo-helpers).
