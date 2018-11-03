@@ -4,7 +4,7 @@ This template is currently out of date! If you'd like to maintain it, reach out 
 
 # with-detox-tests
 
-Demonstrates integration of the Detox gray box end-to-end testing library with Expo. Uses [detox-expo-helpers](https://github.com/expo/detox-expo-helpers).
+Demonstrates integration of the Detox gray box end-to-end testing library with Expo. Uses [detox-expo-helpers](https://github.com/expo/detox-expo-helpers) and [expo-detox-hooks](https://github.com/expo/detox-tools).
 
 ![](https://raw.githubusercontent.com/expo/with-detox-tests/master/example.gif)
 
