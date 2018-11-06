@@ -14,8 +14,9 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz"
   },
   "devDependencies": {
+    "babel-polyfill": "^6.26.0",
     "detox": "^9.0.6",
-    "detox-expo-helpers": "^0.4.0",
+    "detox-expo-helpers": "^0.6.0",
     "expo-detox-hook": "^1.0.10",
     "mocha": "^3.5.0"
   },
