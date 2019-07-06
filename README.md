@@ -1,3 +1,8 @@
+# Deprecated
+This expample is deprecated. We suggest you check out this new example:
+
+[https://github.com/yaron1m/expo-detox-typescript-example](https://github.com/yaron1m/expo-detox-typescript-example)
+
 # with-detox-tests
 
 Demonstrates integration of the Detox gray box end-to-end testing library with Expo. Uses [detox](https://github.com/wix/Detox) 9.0.6+, [detox-expo-helpers](https://github.com/expo/detox-expo-helpers) and [expo-detox-hooks](https://github.com/expo/detox-tools).
